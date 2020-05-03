@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: TabBarView(children: [
         Container(
           child: Center(
-           child: Text("Camera Tab"),
+           child: Text("Click a photo or shoot a video"),
           ),
         ),
         ListView.builder(
@@ -82,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
           itemBuilder: (context, index) {
           return ListTile(
             title: Text("Demo name"),
-            subtitle: Text("Demo message"),
+            subtitle: Text("Demo status"),
             leading: Icon(
             Icons.call,
             size: 60.0,
